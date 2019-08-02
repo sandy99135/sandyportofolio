@@ -3,10 +3,34 @@
   font-family: 'Fredoka One';
 }
 #navbar{
-    background: rgba(223, 214, 214, 0.5)!important;
+ 
+    background: rgba(19, 18, 18, 0.5)!important;
+  
+    
+}
+.navbar{
+  background: rgba(19, 18, 18, 0.5)!important;
+  
 }
 #titre{
     text-align: center;
+}
+.navbar-nav li{
+  margin-left: 20px;
+  font-size: 20px;
+}
+.navbar-nav li a{
+  text-decoration: none;
+}
+.navbar-nav li a :hover{
+  color:rgb(224, 224, 197);
+  background: rgb(224, 224, 197);
+  background-size: 20%;
+}
+.navbar-nav li  :hover{
+  color:rgb(224, 224, 197);
+  background: rgb(224, 224, 197);
+  background-size: 20%;
 }
 .home h1 {
   font-family: 'Roboto';
@@ -30,10 +54,16 @@
   -o-transition: background-color 0.7s ease-out;
   transition: background-color 0.7s ease-out;
 }
+.sandy{
+  width:100%;
+  height:400px;
+}
 
 .home {
   background-image: url('https://i.imgur.com/NxxscUm.jpg');
   background-size: 100%;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
 }
 
 .social a {
@@ -68,6 +98,17 @@
   -moz-transition: background-color 0.7s ease-out;
   -o-transition: background-color 0.7s ease-out;
   transition: background-color 0.7s ease-out;
+}
+#language{
+  height: auto;
+  margin-top: 20px;
+}
+
+#language img{
+  margin:auto;
+  width:200px;
+  height:200px;
+  display: block;
 }
 
 .home .btn:hover {
