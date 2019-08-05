@@ -5,7 +5,7 @@ var scrool = $(document).scrollTop();
 var sliba = $('#skill').offset().top - 300;
 if(scrool >= sliba ) {
 
-      $(".skills img").fadeIn(1200)
+      $("#language img").fadeIn(1200)
     
     }
 });
@@ -28,3 +28,12 @@ $('.laptop img').on('click' , function(){
 
 })
 });
+// window.onscroll = function() {scrollFunction()};
+
+// function scrollFunction() {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     document.getElementById("navbar").style.background = "rgba(19, 18, 18)";
+//   } else {
+//     document.getElementById("navbar").style.background = "rgba(19, 18, 18, 0.5)";
+//   }
+// }
